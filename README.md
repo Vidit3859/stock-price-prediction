@@ -108,14 +108,35 @@ The visualization clearly demonstrates how the LSTM model tracks stock price mov
 
 ---
 
+## 📊 Stock Price History
+
+This graph shows the historical closing price of the stock over time.
+
+![Stock Price History](assets/stock_price_history_graph.png)
+
+---
+
+## 📉 Actual vs Predicted Stock Prices
+
+This graph compares the **actual stock prices** with the **prices predicted by the LSTM model**.
+
+![Actual vs Predicted](assets/actual_vs_predicted_graph.png)
+
+---
+
 ## 📁 Project Structure
 
 ```
-Stock-Price-Trend-Prediction-LSTM 
-│ 
+Stock-Price-Trend-Prediction-LSTM
+│
+├── assets
+│   ├── stock_price_history_graph.png
+│   └── actual_vs_predicted_graph.png
+│
 ├── Stock_Price_Prediction.ipynb
 ├── stock_price_predictions.csv
 ├── lstm_stock_model.h5
+├──requirments.txt
 └── README.md
 ```
 
@@ -138,6 +159,19 @@ Possible improvements for this project:
 This project demonstrates how **Deep Learning and LSTM networks** can be applied to financial time-series data to predict stock price trends.
 
 It highlights the potential of AI in **financial forecasting and market analysis**.
+
+---
+
+## 👨‍💻 Author
+
+**Vidit Kumar**
+
+AI & Machine Learning Enthusiast  
+Passionate about NLP, Web Development, and AI Systems
+
+- 📧 Email: vidit.kumar624@gmail.com  
+- 🔗 LinkedIn: https://linkedin.com/in/viditkumar-in  
+- 💻 GitHub: https://github.com/Vidit3859
 
 ---
 
